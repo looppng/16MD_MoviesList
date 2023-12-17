@@ -1,0 +1,76 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Oppenheimer",
+      "releaseYear": "2023",
+      "genre": "Biography",
+      "rating": "8.4/10",
+      "stars": "Cillian Murphy, Emily Blunt, Matt Damon",
+      "lengthTime": "3h"
+    },
+    {
+      "id": 2,
+      "title": "Inception",
+      "releaseYear": "2010",
+      "genre": "Action, Adventure, Sci-Fi",
+      "rating": "8.8/10",
+      "stars": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
+      "lengthTime": "3h"
+    },
+    {
+      "id": 3,
+      "title": "The Shawshank Redemption",
+      "releaseYear": "1994",
+      "genre": "Drama",
+      "rating": "9.3/10",
+      "stars": "Tim Robbins, Morgan Freeman, Bob Gunton",
+      "lengthTime": "3h"
+    },
+    {
+      "id": 4,
+      "title": "The Dark Knight",
+      "releaseYear": "2008",
+      "genre": "Action, Crime, Drama",
+      "rating": "9.0/10",
+      "stars": "Christian Bale, Heath Ledger, Aaron Eckhart",
+      "lengthTime": "3h"
+    },
+    {
+      "id": 5,
+      "title": "Pulp Fiction",
+      "releaseYear": "1994",
+      "genre": "Crime, Drama",
+      "rating": "8.9/10",
+      "stars": "John Travolta, Uma Thurman, Samuel L. Jackson",
+      "lengthTime": "3h"
+    },
+    {
+      "id": 6,
+      "title": "The Godfather",
+      "releaseYear": "1972",
+      "genre": "Crime, Drama",
+      "rating": "9.2/10",
+      "stars": "Marlon Brando, Al Pacino, James Caan",
+      "lengthTime": "3h"
+    },
+    {
+      "id": 7,
+      "title": "Forrest Gump",
+      "releaseYear": "1994",
+      "genre": "Drama, Romance",
+      "rating": "8.8/10",
+      "stars": "Tom Hanks, Robin Wright, Gary Sinise",
+      "lengthTime": "3h"
+    },
+    {
+      "id": 8,
+      "title": "The Matrix",
+      "releaseYear": "1999",
+      "genre": "Action, Sci-Fi",
+      "rating": "8.7/10",
+      "stars": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+      "lengthTime": "3h"
+    }
+  ]
+}
