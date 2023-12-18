@@ -1,5 +1,6 @@
 import Button from "../Button/button.tsx";
 import style from './movieCard.module.css'
+import {Link} from "react-router-dom";
 
 type CardProps = {
 	id: number
@@ -13,11 +14,14 @@ type CardProps = {
 }
 
 
-const MovieCard = ({title, releaseYear, genre, rating , loading, onDelete}: CardProps) => {
+const MovieCard = ({id, title, releaseYear, genre, rating , loading, onDelete}: CardProps) => {
+
 
 	return (
 			<div className={style.card}>
-				<h3 className={style.title}>{title}</h3>
+				<Link to={`/movies/${id}`} className={style.link}>
+					<h3 className={style.title}>{title}</h3>
+				</Link>
 				<h5 className={style.year}>Year: {releaseYear}</h5>
 				<div className={style.info}>
 					<p className={style.genre}>Genre: {genre}</p>

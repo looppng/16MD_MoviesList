@@ -10,10 +10,9 @@ const Router = () => {
 			<Routes>
 				<Route path='/' element={<MoviesList/>} />
 				<Route path='/movies/:id' element={<Movie/>} />
-
-				<Route path='/aboutAuthor' element={<AboutAuthor/>}/>
-				<Route path='/aboutProject' element={<AboutProject/>}/>
-				<Route path='*' element={<NotFound/>}/>
+				<Route path='/aboutAuthor' element={<AboutAuthor/>} />
+				<Route path='/aboutProject' element={<AboutProject/>} />
+				<Route path='*' element={<NotFound/>} />
 			</Routes>
 	);
 };

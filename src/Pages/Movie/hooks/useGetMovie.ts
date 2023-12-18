@@ -1,4 +1,4 @@
-import { useQuery } from "@tanstack/react-query";
+import {useQuery} from "@tanstack/react-query";
 import axios from "axios";
 import { Movie } from "../../MoviesList/MoviesList.tsx";
 import { useNavigate } from "react-router-dom";
@@ -13,6 +13,7 @@ export const useGetMovie = (id: string) => {
 				.get<Movie[]>(`http://localhost:3000/movies/${id}`)
 				.then(({data}) => {
 					return data;
+
 			})
 				.catch((e) =>{
 					if (e.response.status === 404) {

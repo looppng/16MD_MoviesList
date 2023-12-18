@@ -1,9 +1,10 @@
 import {useParams} from "react-router-dom";
 import {useGetMovie} from "./hooks/useGetMovie.ts";
 import style from './Movie.module.css'
-import MovieComments from "./MovieComments.tsx";
+import CommentForm from "../../Components/CommentForm/CommentForm.tsx";
 
 const SingleMovie = () => {
+
 	const {id} = useParams();
 	const {data: movie, isLoading } = useGetMovie(id!);
 
@@ -29,7 +30,23 @@ const SingleMovie = () => {
 						</div>
 					</div>
 				</div>
-				<MovieComments/>
+				<div className="container mt-3">
+					<div className={style.commentBox}>
+						<h4>Comments on this movie :</h4>
+						{movie.comments.map((comment: string, index: number) => (
+								<div className={style.commentCard}>
+									<p key={index} className={style.comment}>{comment}</p>
+								</div>
+						))}
+					</div>
+					<div className="container mt-3">
+						<CommentForm
+							loading={isLoading}
+							label={'Add a comment:'}
+							placeholder={'Your comment here...'}
+						/>
+					</div>
+				</div>
 			</section>
 	)
 }

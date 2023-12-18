@@ -35,3 +35,20 @@
 .length {
     font-size: 1.1rem;
 }
+
+.commentBox {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 500px;
+}
+
+.commentCard {
+    padding: 0 1rem;
+
+}
+
+.comment {
+
+}

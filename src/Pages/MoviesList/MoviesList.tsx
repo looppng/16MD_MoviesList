@@ -3,18 +3,24 @@ import {useDeleteMovie} from "./hooks/useDeleteMovie.ts";
 import MovieCard from "../../Components/movieCard/movieCard.tsx";
 import style from './MoviesList.module.css'
 
+export interface Comment {
+	id: number;
+	text: string;
+}
+
 export type Movie = [
-		id: number,
-		title: string,
-		releaseYear: string,
-		genre: string,
-		rating: string,
-		lengthTime: string
+	id: number,
+	title: string,
+	releaseYear: string,
+	genre: string,
+	rating: string,
+	lengthTime: string,
+	comments: Comment[]
 ]
 
 const MoviesList = () => {
 	const {data : movies, isLoading : loading} = useGetMovies();
-	const {mutateAsync: deleteMovie, isPending: deleteMovieLoading} = useDeleteMovie();
+	const {mutateAsync: deleteMovie, isPending} = useDeleteMovie();
 
 
 	return (
@@ -27,6 +33,7 @@ const MoviesList = () => {
 									movies?.map(({id, title, releaseYear, genre, rating, lengthTime}: Movie) => (
 											<div key={id}>
 												<MovieCard
+														id={id}
 														title={title}
 														releaseYear={releaseYear}
 														genre={genre}

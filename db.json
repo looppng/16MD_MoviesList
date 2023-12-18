@@ -7,7 +7,11 @@
       "genre": "Biography",
       "rating": "8.4/10",
       "stars": "Cillian Murphy, Emily Blunt, Matt Damon",
-      "lengthTime": "3h"
+      "lengthTime": "3h",
+      "comments": [
+        "Compelling biography with outstanding performances.",
+        "Great storytelling and character development."
+      ]
     },
     {
       "id": 2,
@@ -16,16 +20,11 @@
       "genre": "Action, Adventure, Sci-Fi",
       "rating": "8.8/10",
       "stars": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
-      "lengthTime": "3h"
-    },
-    {
-      "id": 3,
-      "title": "The Shawshank Redemption",
-      "releaseYear": "1994",
-      "genre": "Drama",
-      "rating": "9.3/10",
-      "stars": "Tim Robbins, Morgan Freeman, Bob Gunton",
-      "lengthTime": "3h"
+      "lengthTime": "3h",
+      "comments": [
+        "Mind-bending sci-fi with incredible visuals.",
+        "A must-watch for fans of complex narratives."
+      ]
     },
     {
       "id": 4,
@@ -34,7 +33,11 @@
       "genre": "Action, Crime, Drama",
       "rating": "9.0/10",
       "stars": "Christian Bale, Heath Ledger, Aaron Eckhart",
-      "lengthTime": "3h"
+      "lengthTime": "3h",
+      "comments": [
+        "Compelling biography with outstanding performances.",
+        "Great storytelling and character development."
+      ]
     },
     {
       "id": 5,
@@ -43,7 +46,11 @@
       "genre": "Crime, Drama",
       "rating": "8.9/10",
       "stars": "John Travolta, Uma Thurman, Samuel L. Jackson",
-      "lengthTime": "3h"
+      "lengthTime": "3h",
+      "comments": [
+        "Compelling biography with outstanding performances.",
+        "Great storytelling and character development."
+      ]
     },
     {
       "id": 6,
@@ -52,7 +59,11 @@
       "genre": "Crime, Drama",
       "rating": "9.2/10",
       "stars": "Marlon Brando, Al Pacino, James Caan",
-      "lengthTime": "3h"
+      "lengthTime": "3h",
+      "comments": [
+        "Compelling biography with outstanding performances.",
+        "Great storytelling and character development."
+      ]
     },
     {
       "id": 7,
@@ -61,7 +72,11 @@
       "genre": "Drama, Romance",
       "rating": "8.8/10",
       "stars": "Tom Hanks, Robin Wright, Gary Sinise",
-      "lengthTime": "3h"
+      "lengthTime": "3h",
+      "comments": [
+        "Compelling biography with outstanding performances.",
+        "Great storytelling and character development."
+      ]
     },
     {
       "id": 8,
@@ -70,7 +85,24 @@
       "genre": "Action, Sci-Fi",
       "rating": "8.7/10",
       "stars": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
-      "lengthTime": "3h"
+      "lengthTime": "3h",
+      "comments": [
+        "Compelling biography with outstanding performances.",
+        "Great storytelling and character development."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "The Lord of the Rings: The Return of the King",
+      "releaseYear": "2003",
+      "genre": "Action, Adventure, Drama",
+      "rating": "8.9/10",
+      "stars": "Elijah Wood, Viggo Mortensen, Ian McKellen",
+      "lengthTime": "3h",
+      "comments": [
+        "Compelling biography with outstanding performances.",
+        "Great storytelling and character development."
+      ]
     }
   ]
 }
